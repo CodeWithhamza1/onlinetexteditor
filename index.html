@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        Online Text Editor
+        <div class="more"><a href="https://codewithhamza1.github.io/moretoolscodewithhamza/">More</a></div>
+    </header>
+
+    <div class="container">
+        <div class="username" id="userName"></div>
+        <textarea name="" id="" cols="30" rows="10" onkeyup="run()" autofocus></textarea>
+        <div class="box">
+            Characters: <div class="countedtext" id="countnos"></div>
+        </div>
+        <div class="box">
+            Key: <div class="countedtext" id="key"></div>
+        </div>
+        <div class="box2">
+            <div class="countedtext" id="time"></div>
+            <div class="btn"><button id="btn">Reload</button></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
